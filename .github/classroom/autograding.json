@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Test 1 - Provided Example",
-      "setup": "javac src/Main.java",
-      "run": "java -cp src Main",
+      "setup": "javac src/ArrayListOperations.java",
+      "run": "java -cp src ArrayListOperations",
       "input": "3\nMilk Bread Eggs\nBread",
       "output": "Sorted Items: [Bread, Eggs, Milk]\nFound",
       "comparison": "included",
@@ -12,8 +12,8 @@
     },
     {
       "name": "Test 2 - Item Not Found",
-      "setup": "javac src/Main.java",
-      "run": "java -cp src Main",
+      "setup": "javac src/ArrayListOperations.java",
+      "run": "java -cp src ArrayListOperations",
       "input": "4\nZebra Apple Monkey Dog\nCat",
       "output": "Sorted Items: [Apple, Dog, Monkey, Zebra]\nNot Found",
       "comparison": "included",
@@ -22,8 +22,8 @@
     },
     {
       "name": "Test 3 - Duplicate Items",
-      "setup": "javac src/Main.java",
-      "run": "java -cp src Main",
+      "setup": "javac src/ArrayListOperations.java",
+      "run": "java -cp src ArrayListOperations",
       "input": "5\nPen Pencil Eraser Pencil Marker\nEraser",
       "output": "Sorted Items: [Eraser, Marker, Pen, Pencil, Pencil]\nFound",
       "comparison": "included",
